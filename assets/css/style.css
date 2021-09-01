@@ -33,11 +33,18 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
     list-style: none;
 }
 img{
     max-width: 190px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
 }
 
 div.flex{
@@ -53,13 +60,20 @@ div.large-container{
     max-width: 1170px;
     margin:0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: #00043e;
+    color: #00043e;
 }
 div.container{
     width: 100%;
     max-width: 1140px;
     margin:0 auto;
+}
+
+div.large-container img {
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 /* GERAL */
   
@@ -79,11 +93,21 @@ header{}
     background-color: #00043e;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 20vh;
 }
 
 .secaoDestaque h2, p {
     color: white;
     text-align: center;
+    margin-bottom: 0.5rem;
+}   
+
+.secaoDestaqueFormulario {
+    text-align: center;
+}
+
+.secaoDestaqueFormulario input {
+    margin-right: -5px;
 }
 
 input {
@@ -94,7 +118,8 @@ input {
 }
 
 button {
-    border-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
     height: 36px;
     width: 85px;
     border: none;
@@ -163,6 +188,24 @@ article li img,h3,p {
 
 .secaoCursos li{
     margin-bottom: 50px;
+}
+
+.secaoContato{
+    font-size: 15px;
+    background-color: lightblue;
+    color: #818181;
+}
+.secaoContato h2 {
+    display: inline-block;
+    color: black;
+}
+.secaoContato .flex {
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+div.secaoContato-informacoes a {
+    color: #818181;
+    text-decoration: none;
 }
 
 /* FOOTER */
