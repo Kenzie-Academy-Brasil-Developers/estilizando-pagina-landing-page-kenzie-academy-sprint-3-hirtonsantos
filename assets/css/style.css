@@ -246,27 +246,19 @@ span.calendario-data {
     margin-left: 60px;
 }
 
-.secaoContato{
-    flex-wrap: wrap;
+.secaoContato {
     background-color: #007aff;
+    width: 100%;
+    margin-top: 100px;
+    font-size: 15px;
 }  
 
-.secaoContato h2 {
-    color: black;
-    margin-top: 90px;
-    height: 55px;
-    margin-left: -370px;
 
+
+.secaoContato p {
+    height: 80px;
 }
 
-.secaoContato li {
-    margin-top: 25px;
-}
-
-
-.secaoContato-informacoes {
-    margin-top: 300px;
-}
 
 /* INICIAL */
 
