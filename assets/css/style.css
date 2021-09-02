@@ -223,6 +223,7 @@ article li img,h3,p {
 .secaoSobre .flex-col {
     margin-inline: auto;
     flex-direction: column;
+    width: 90%;
 }
 
 .secaoSobre .flex-col h2 {
@@ -255,11 +256,18 @@ article li img,h3,p {
 
 .calendario {
     margin-top: 40px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 .calendario li {
-    margin-bottom: 60px
+    margin-bottom: 60px;
+    border: #00043e solid 1px;
+    border-top: none;
+    width: 207px;   
 }
+
 
 .calendario-data {
     font-size: 40px;
@@ -275,6 +283,14 @@ article li img,h3,p {
     font-size: 17px;
     width: 198px;
     display: -webkit-inline-box;
+    color: #818181;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #818181;
+}
+
+.calendario-data-rodape span {
+    color: #818181;
+    font-size: 1.6em;
 }
 
 .calendario-data-rodape {
@@ -292,6 +308,7 @@ article li img,h3,p {
     height: 45px;
     width: 150px;
     font-size: 17px;
+    margin-bottom: 20px;
 }
 
 .secaoContato{
